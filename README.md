@@ -56,6 +56,12 @@ MAIL_FROM_ADDRESS=noreply@example.com
 MAIL_FROM_NAME="${APP_NAME}"
 ```
 
+- Custom Component
+
+```
+php artisan vendor:publish --tag=laravel-mail
+```
+
 ### 🏆 Run
 
 - [http://localhost:8000/](http://localhost:8000/) username : `admin` password : `admin`
